@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CLASSES FORMS
+        </title>
+        <style>
+            body{
+                  margin: 0px;
+                  padding: 0px;
+                  text-align: left;
+                  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(pick5u.jpg);
+                  background-size: cover;
+                  background-position: right;
+                  font-family: sans-serif;
+                  font-size: 20px;
+                  
+            }
+            .left {
+
+              display: inline-flex;
+              position: right;
+              left: 34px;
+              top: 0px;
+              font-size: 30px;
+            } 
+
+            .left img {               
+               width: 80px;
+               margin: 2px auto;
+               padding: 0px 16px;
+               filter: invert(100%);
+               margin: auto;
+
+            }
+            .sau{
+                width: 500px;
+                background: transparent;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid gray;
+                color:black;
+                font-size: 25px;
+                margin-bottom: 16px;
+            }
+            .sau input{
+                padding: 0px 67px;
+                border: 2px solid black;
+                font-size: large;
+                border-radius: 5px;
+            }
+            .sau select{
+                border: 2px solid black;
+                font-size: large;
+                border-radius:5px ;
+                align-items: left;
+            }
+            .btn {
+                border-radius: 20px;
+                color: rgb(185, 98, 66);
+                background: transparent;
+                font-size: 25px;
+                font-weight: bold;
+                width:1300px;
+                padding:10px;
+                margin: 10px;
+                cursor:pointer;
+                size:200px
+            }
+            .btn input{
+                padding: 0px 20px;
+            }
+          
+            .btn input:hover{
+                background-color:chocolate
+
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align:center ;">THIS IS FORMS</h2>
+        <div class="left">
+            <img src="tcet.png" alt="">
+            <div style="text-align:center; color:white;"></div>
+        </div>
+        <forms class="sau" style="block-size: 200px;">
+            <div id="first">
+                USERNAME :&nbsp;&nbsp;&nbsp;<input type="text" name="my neme"placeholder="USERNAME" required>
+                
+                <br>  NAME : &nbsp;&nbsp;&nbsp;  <input type="text" name="mylastname" style="align-items: center;" placeholder="NAME" required>
+            </div>
+            
+            <br>
+            <div>
+                EMAIL: <input type="email" name="myemail"placeholder="EMAIL" required>
+                <br>
+                PASSWORD: <input type="password"name="pwd"placeholder="PASSWORD" required>
+            </div>
+            <br>
+            <br>
+            <div>
+                GENDER: <select name="GENDER" id="">
+                    <option value="MALE">MALE</option>
+                    <option value="FEMALE">FEMALE</option>
+                    <option value="OTHER">OTHER</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                NUMBER : <input type="number" name="Mynumber" placeholder="Number" required>
+                <br>
+                Room no: <input type="number" name="Myoomnumber" placeholder="Room no" required>
+                <br>
+                <br>
+                Fees   : <input type="number" name="Myfees" placeholder="Fees" required>
+                <br>
+                Parents-no:  <input type="number" name="Parentsno" placeholder="Parents no" required>
+                <br>
+                <br>
+            </div>
+            <br>
+            <br>
+            <div>
+             Adhaar-no:   <input type="number" name="Myadhaar" placeholder="Adhaar" required>
+             <br>
+             Address : <input type="text" name="Address" placeholder="Address" required>
+            </div>
+            <br>
+            <br>
+            <div class="btn">
+                <input type="submit" value="SUBMIT" placeholder="SUBMIT" alert="YOU FORM IS SUBMITED">
+                <br>
+                <input type="reset" name="RESET"  placeholder="RESET">
+            </div>
+        </forms>
+    </body>
+</html>
